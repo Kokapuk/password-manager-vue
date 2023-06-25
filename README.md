@@ -1,4 +1,4 @@
-# Chatty
+# Password Manager
 
 - On Frontend **(TypeScript)**
   - [Vite](https://vitejs.dev)
