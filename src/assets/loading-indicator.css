@@ -1,0 +1,18 @@
+.loading-indicator {
+  display: inline-block;
+  aspect-ratio: 1/1;
+  height: 75px;
+  border-radius: 50%;
+  border: 10px solid rgb(var(--accent));
+  border-bottom-color: transparent !important;
+  animation: spin 700ms infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
